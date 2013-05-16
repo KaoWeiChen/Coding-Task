@@ -1,7 +1,11 @@
 Coding-Task
 ===========
 
-The coding task would show syslog data by html table . 
+The coding task would show syslog data by html table,as well as it immediately presnet the latest syslog.
 
-The web page is synchronous with the auth.log  on linux. 
+
+
+
+
+
 
