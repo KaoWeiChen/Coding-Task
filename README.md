@@ -5,8 +5,9 @@ The coding task would show syslog data by html table,as well as it immediately p
 
 The other files are as follows
 
-1 .index.html 
-it is a basic web page.
+1. index.html 
+
+   it is a basic web page.
 
 2. syslog.js 
    it continued to communicate with back-end ,send requst and get data.In addition, he parse 
