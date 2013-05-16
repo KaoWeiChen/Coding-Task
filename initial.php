@@ -1,7 +1,7 @@
 <?
 $file_handle = fopen("initial.log", "r");
 $syslog = array();
-// load intial data
+// load initial data
 while (!feof($file_handle)) {
       $line = fgets($file_handle);
       array_push($syslog,$line) ;
