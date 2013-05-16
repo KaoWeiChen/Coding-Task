@@ -17,4 +17,7 @@ The other files are as follows
 3. intial.php 
 
    When the page is executed, he will deal with the past has been the presence of syslog data.
+   The syslog data is from the auth.log on linux and it is converted into json format.
+   
+4.
    
