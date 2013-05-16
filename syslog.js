@@ -64,7 +64,7 @@ function AppendRow(time,computer,service,message){
 
 }
 // load intial syslog  data 
-loadXMLDoc("intial.php") ;
+loadXMLDoc("initial.php") ;
 // load new syslog data
 window.onload=setInterval(function(){
 
