@@ -1,6 +1,6 @@
 <?
-$update_file  = fopen("/var/log/test.log","r");
-$initial_file = fopen("intial.txt","a+");
+$update_file  = fopen("/var/log/update.log","r");
+$initial_file = fopen("initial.log","a+");
 $syslog = array();
 // write new data to attay and intial file from update file 
 while (!feof($update_file)) {
@@ -35,7 +35,7 @@ echo json_encode( $submit_json );
 fclose($initial_file);
 fclose($update_file);
 //Empty Update file
-$update_file = fopen("/var/log/test.log", "w");
+$update_file = fopen("/var/log/update.log", "w");
 fwrite($update_file,'');
 fclose($update_file);
 
