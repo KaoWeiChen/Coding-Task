@@ -10,6 +10,7 @@ The other files are as follows
    it is a basic web page.
 
 2. syslog.js 
+
    it continued to communicate with back-end ,send requst and get data.In addition, he parse 
    json format and present syslog. 
 
