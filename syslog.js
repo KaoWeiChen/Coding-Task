@@ -68,4 +68,4 @@ loadXMLDoc("initial.php") ;
 // load new syslog data
 window.onload=setInterval(function(){
 
-      loadXMLDoc("update.php");},500);
+      loadXMLDoc("update.php");},100);
