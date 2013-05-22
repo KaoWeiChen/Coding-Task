@@ -1,0 +1,15 @@
+.link {
+  stroke: #000;
+  stroke-width: 0.5px;
+}
+
+.node {
+  fill: #ff7f0e;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.node.time { fill: #1f77b4; }
+.node.cooputer { fill: #ff7f0e; }
+.node.service { fill: #2ca02c; }
+.node.message { fill: #8887EB; }
