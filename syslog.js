@@ -99,7 +99,7 @@ var svg = d3.select("body").append("svg")
 var node = svg.selectAll(".node"),
     link = svg.selectAll(".link");
  
-// 1. Add three nodes and three links.
+// push node and link
 function pushnode(time,computer,service,message) {
     var a = {id:'time',name:time}, b = {id:'computer',name:computer}, c = {id:'service',name:service} , d = {id:'message',name:message};
     nodes.push(a,b,c,d);
