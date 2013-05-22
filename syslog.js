@@ -22,8 +22,7 @@ function loadXMLDoc(phpname){
            //paser json format and call AppendRow function
            
            var jsonObj = JSON.parse(xmlhttp.responseText);
-           var num_row = jsonObj.syslog.length;     
-           var endtime = new Date() + maxtime;     
+           var num_row = jsonObj.syslog.length;      
                           
            for(i = 0;i<num_row -1;i++){ 
                var time = jsonObj.syslog[i].time;
