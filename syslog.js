@@ -75,10 +75,7 @@ loadXMLDoc("intial.php") ;
 
 
 
-
-
-
- 
+// draw graph  
 var width = 1000,
     height = 700;
  
@@ -105,15 +102,13 @@ var node = svg.selectAll(".node"),
 // 1. Add three nodes and three links.
 function pushnode(time,computer,service,message) {
     var a = {id:'time',name:time}, b = {id:'computer',name:computer}, c = {id:'service',name:service} , d = {id:'message',name:message};
-  nodes.push(a,b,c,d);
-  links.push({source:a , target: b}, {source: b, target: c},{source: c, target: d});
-  start();
-    
-        node.append("title")
+    nodes.push(a,b,c,d);
+    links.push({source:a , target: b}, {source: b, target: c},{source: c, target: d});
+    start();
+    node.append("title")
         .text(function(d){return d.name;});
 };
  
-
  
 
  
